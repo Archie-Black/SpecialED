@@ -1,0 +1,27 @@
+name: highway
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  pulse:
+    if: github.event.head_commit.message != 'pbx pulse'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: write pulse
+        run: |
+          mkdir -p pbx
+          {
+            echo "sha=${GITHUB_SHA}"
+            echo "at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "ref=${GITHUB_REF}"
+          } > pbx/last-pulse.txt
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: pbx pulse
+          file_pattern: pbx/last-pulse.txt
