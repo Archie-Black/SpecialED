@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OS V01D Look",
+	"Description": "Runtime look: vanta / cobalt / uranium. SpecialED public isolate.",
+	"Category": "Cinematic",
+	"CreatedBy": "DeltaKingZero",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Modules": [{ "Name": "OSV01DLook", "Type": "Runtime", "LoadingPhase": "Default" }]
+}

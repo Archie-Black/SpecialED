@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "OS V01D Persist",
+	"Description": "Learning SaveGame. Adapts look strength after GPU fails. SpecialED isolate.",
+	"Category": "Cinematic",
+	"CreatedBy": "DeltaKingZero",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"Modules": [{ "Name": "OSV01DPersist", "Type": "Runtime", "LoadingPhase": "Default" }]
+}

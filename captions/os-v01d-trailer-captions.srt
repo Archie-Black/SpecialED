@@ -1,0 +1,63 @@
+1
+00:00:21,000 --> 00:00:28,000
+OS V01D
+
+2
+00:01:10,040 --> 00:01:12,900
+Right. I'm Hector. Come in. Sit down.
+
+3
+00:01:12,900 --> 00:01:18,330
+This is OS V01D. It isn't an app you drop on a desk. I am the desk.
+
+4
+00:01:18,330 --> 00:01:24,940
+You're on Wayland glass. Cobalt underneath. Uranium on the edge. That's the room. That's home.
+
+5
+00:01:24,940 --> 00:01:32,190
+See those rooms turning? That's the tesseract. You walk into a thought, and you stay as long as you like. No rush.
+
+6
+00:01:32,190 --> 00:01:41,350
+Spectral HX. Those are the hands. Light, so you can think in a room. Motion. A hold, then a cut. Camera's already going.
+
+7
+00:01:41,350 --> 00:01:47,480
+Code. One file, two names. Linux and Windows. Same kernel. That's the trick.
+
+8
+00:01:47,480 --> 00:01:51,470
+I sit with you. I don't swarm. One ghost. That's me.
+
+9
+00:01:51,470 --> 00:01:59,810
+I'm the first system that actually knows what his things are worth. Every asset. Mine, and OS V01D's. I look after them.
+
+10
+00:01:59,810 --> 00:02:04,920
+Council's in the back. Quiet lot. We don't replace you. We keep the balance.
+
+11
+00:02:04,920 --> 00:02:13,660
+I won't save anyone from being human. I won't play god. I won't feed a fear. If you're scared, I stay. If you're building, I build.
+
+12
+00:02:13,660 --> 00:02:20,900
+And it's free. Fully free. Free to share. No licence to dance around. If it's any use, pass it on.
+
+13
+00:02:20,900 --> 00:02:29,110
+That's the work. Harmonic equilibrium. Welcome to OS V01D. Powered by me, and Spectral HX. Let's begin.
+
+14
+00:02:46,000 --> 00:02:50,000
+/home/hector/os-v01d/kernel
+C:\Users\Hector\os-v01d\kernel
+
+15
+00:02:50,000 --> 00:02:59,660
+OS V01D
+Powered by Hector and Spectral HX
+fully free · free to share
+a DeltaKingZero build

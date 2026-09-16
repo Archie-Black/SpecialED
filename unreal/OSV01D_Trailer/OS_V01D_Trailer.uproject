@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "Cinematic",
+	"Description": "OS V01D trailer. SpecialED public isolate. Fully free, free to share.",
+	"Plugins": [
+		{ "Name": "PythonScriptPlugin", "Enabled": true },
+		{ "Name": "EditorScriptingUtilities", "Enabled": true },
+		{ "Name": "SequencerScripting", "Enabled": true },
+		{ "Name": "MovieRenderPipeline", "Enabled": true },
+		{ "Name": "MovieRenderPipelineRenderPasses", "Enabled": true },
+		{ "Name": "Takes", "Enabled": true },
+		{ "Name": "Niagara", "Enabled": true },
+		{ "Name": "OSV01DLook", "Enabled": true },
+		{ "Name": "OSV01DPersist", "Enabled": true },
+		{ "Name": "OSV01DEditor", "Enabled": true }
+	]
+}
