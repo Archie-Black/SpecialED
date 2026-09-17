@@ -7,6 +7,7 @@ var plays: int = 0
 var last_t: float = 0.0
 var muted: bool = false
 var look_fails: int = 0
+var look_ok: bool = true
 var strength: float = 1.0
 
 func _ready() -> void:
@@ -26,10 +27,12 @@ func _load() -> void:
 	last_t = float(d.get("lastT", 0))
 	muted = bool(d.get("muted", false))
 	look_fails = int(d.get("lookFails", 0))
+	look_ok = bool(d.get("lookOk", look_fails < 2))
 	strength = float(d.get("strength", 1))
 
 func save(t: float = last_t) -> void:
 	last_t = t
+	look_ok = look_fails < 2
 	var f := FileAccess.open(PATH, FileAccess.WRITE)
 	if f == null:
 		return
@@ -38,7 +41,7 @@ func save(t: float = last_t) -> void:
 		"lastT": last_t,
 		"muted": muted,
 		"lookFails": look_fails,
-		"lookOk": look_fails < 2,
+		"lookOk": look_ok,
 		"strength": strength,
 	}))
 
@@ -50,3 +53,10 @@ func note_look_fail() -> void:
 	look_fails += 1
 	strength = maxf(0.35, strength * 0.82)
 	save()
+
+func note_look_ok() -> void:
+	strength = minf(1.0, strength + 0.04)
+	save()
+
+func should_use_look() -> bool:
+	return look_fails < 2
